@@ -6,7 +6,7 @@ import SearchBar from './components/SearchBar';
 import MovieList from './components/MovieList';
 import './App.css';
 
-const API_KEY = 'f9c03f4f'; 
+const API_KEY = process.env.REACT_APP_API_KEY; 
 const API_URL = 'http://www.omdbapi.com/';
 
 function App() {
